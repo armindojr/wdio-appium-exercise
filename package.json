@@ -1,0 +1,21 @@
+{
+    "name": "my-new-project",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Training wdio and appium automation skills with dummy app",
+    "scripts": {
+        "wdio": "wdio run ./wdio.conf.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "GPL-3.0-only",
+    "dependencies": {
+        "@wdio/appium-service": "^8.11.2",
+        "@wdio/cli": "^8.11.2",
+        "@wdio/local-runner": "^8.11.2",
+        "@wdio/mocha-framework": "^8.11.0",
+        "@wdio/spec-reporter": "^8.11.2",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.3"
+    }
+}
